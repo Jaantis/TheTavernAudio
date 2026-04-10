@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{c4b248f9-3595-4072-9c26-ab20f1c7610f}">
+		<property name="assetPath">
+			<value>Mouse/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28482d81-3ca2-4f1c-bd54-3ff75263fd3e}</destination>
+		</relationship>
+	</object>
+</objects>

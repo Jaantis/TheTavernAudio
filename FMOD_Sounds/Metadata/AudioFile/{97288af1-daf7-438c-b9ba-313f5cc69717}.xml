@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{97288af1-daf7-438c-b9ba-313f5cc69717}">
+		<property name="assetPath">
+			<value>Stairs/SE_Foot_Stairs-004.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.34375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28482d81-3ca2-4f1c-bd54-3ff75263fd3e}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d91d3c82-28ef-4300-b930-a05e2c71c4ca}">
+		<property name="assetPath">
+			<value>Music/MUS_Tavern.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>212</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28482d81-3ca2-4f1c-bd54-3ff75263fd3e}</destination>
+		</relationship>
+	</object>
+</objects>

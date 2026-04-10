@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2f881336-a92b-47e4-80d9-0441d93a7700}">
+		<property name="assetPath">
+			<value>Rock/Fall/SE_Fall_Rock-002.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28482d81-3ca2-4f1c-bd54-3ff75263fd3e}</destination>
+		</relationship>
+	</object>
+</objects>
