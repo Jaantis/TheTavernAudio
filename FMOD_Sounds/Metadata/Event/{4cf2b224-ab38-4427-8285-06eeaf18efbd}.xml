@@ -134,7 +134,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0075c54f-41dc-4b68-b23a-71c238d4a7f8}">
 		<property name="name">
-			<value>Rock Fall</value>
+			<value>Stone Fall</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{890a19af-fd49-401a-a9cd-4b7134e9a3aa}</destination>

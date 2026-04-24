@@ -97,10 +97,10 @@ MonoBehaviour:
   Path: FMOD_Sounds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639114152924641662
+  lastModified: 639126218825750458
   FileSizes:
   - Name: Desktop
-    Value: 1182
+    Value: 1184
   Exists: 1
 --- !u!114 &-5563681843858741922
 MonoBehaviour:
@@ -112,9 +112,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Fall/Footstep Surface
+  m_Name: parameter:/Fall/footsteps_surface
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: Footstep Surface
+  Name: footsteps_surface
   StudioPath: 
   Min: 0
   Max: 2
@@ -126,7 +126,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - wood
-  - rock
+  - stone
   - stairs
   Exists: 1
 --- !u!114 &-2879159136448860144
@@ -144,7 +144,7 @@ MonoBehaviour:
   Path: FMOD_Sounds/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639114152924621322
+  lastModified: 639126218825735423
   FileSizes:
   - Name: Desktop
     Value: 7108640
@@ -179,7 +179,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6394127996722565223}
   cacheVersion: 131859
-  cacheTime: 639114152924641662
+  cacheTime: 639126218825750458
   SerializableEventsDict:
   - key: event:/Fall
     index: 0
@@ -289,9 +289,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jump/Footstep Surface
+  m_Name: parameter:/Jump/footsteps_surface
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: Footstep Surface
+  Name: footsteps_surface
   StudioPath: 
   Min: 0
   Max: 2
@@ -303,7 +303,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - wood
-  - rock
+  - stone
   - stairs
   Exists: 1
 --- !u!114 &4963678941824212506
@@ -371,9 +371,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Footsteps/Footstep Surface
+  m_Name: parameter:/Footsteps/footsteps_surface
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: Footstep Surface
+  Name: footsteps_surface
   StudioPath: 
   Min: 0
   Max: 2
@@ -385,7 +385,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - wood
-  - rock
+  - stone
   - stairs
   Exists: 1
 --- !u!114 &6163459662138770928

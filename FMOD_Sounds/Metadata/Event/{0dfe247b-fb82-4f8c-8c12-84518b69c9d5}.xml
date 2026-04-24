@@ -98,7 +98,6 @@
 		<property name="startOffset">
 			<value>52.5</value>
 		</property>
-		<property name="name" />
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -110,6 +109,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8134190a-973a-4675-b0b4-aacd4a106c5f}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<property name="name">
 			<value>AMB_Tavern</value>
 		</property>
