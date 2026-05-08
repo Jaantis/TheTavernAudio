@@ -711,6 +711,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1014691385525964, guid: cb181bc6c302bca40929333077286a04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1668381376}
+    - targetCorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1671920686}
+    - targetCorrespondingSourceObject: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 212286566}
+    - targetCorrespondingSourceObject: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 652531779}
   m_SourcePrefab: {fileID: 100100000, guid: cb181bc6c302bca40929333077286a04, type: 3}
 --- !u!1 &159108029 stripped
 GameObject:
@@ -803,6 +812,40 @@ Transform:
   - {fileID: 1110397080}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &212286561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &212286566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212286561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Doors
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: -683680149
+      Data2: 1317260011
+      Data3: 99615917
+      Data4: -602111959
+    Path: event:/Doors
+  insideRoomSnap:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &237163387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,9 +2619,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VCA
   globalMuteActive: 1
-  musicMuteActive: 1
-  tavernMuteActive: 1
-  outsideMuteActive: 1
+  musicMuteActive: 0
+  tavernMuteActive: 0
+  outsideMuteActive: 0
+--- !u!1 &652531774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &652531779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652531774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Doors
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: -683680149
+      Data2: 1317260011
+      Data3: 99615917
+      Data4: -602111959
+    Path: event:/Doors
+  insideRoomSnap:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4407,7 +4484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -783, y: -78}
+  m_AnchoredPosition: {x: -726, y: -78}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1473028131
@@ -5826,6 +5903,40 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1671920681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1671920686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671920681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Doors
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: -683680149
+      Data2: 1317260011
+      Data3: 99615917
+      Data4: -602111959
+    Path: event:/Doors
+  insideRoomSnap:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1685699550
 GameObject:
   m_ObjectHideFlags: 0

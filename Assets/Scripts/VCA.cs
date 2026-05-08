@@ -26,10 +26,10 @@ public class VCA : MonoBehaviour
     void Start()
     {
         // Pobiera VCAs z FMOD.
-        globalVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Mute");
-        musicVCA = FMODUnity.RuntimeManager.GetVCA("vca:/music-control");
-        tavernVCA = FMODUnity.RuntimeManager.GetVCA("vca:/tavern-control");
-        outsideVCA = FMODUnity.RuntimeManager.GetVCA("vca:/outside-control");
+        globalVCA = FMODUnity.RuntimeManager.GetVCA("vca:/mute");
+        musicVCA = FMODUnity.RuntimeManager.GetVCA("vca:/music");
+        tavernVCA = FMODUnity.RuntimeManager.GetVCA("vca:/tavern");
+        outsideVCA = FMODUnity.RuntimeManager.GetVCA("vca:/outside");
 
         // Ustawia początkową głośność.
         globalVCA.setVolume(DecibelToLinear(-100));
